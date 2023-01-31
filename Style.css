@@ -1,0 +1,121 @@
+navbar{
+    color: black;
+}
+body {
+    background-image: url(img/bg2.jpg);
+    background-attachment: scroll;
+    background-repeat: round;
+}
+img {
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+.carousel slide {
+    height: 600px;
+    width: 600px;
+}
+h1 {
+    font-family: cursive;
+    font-size: 30px;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h5 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+.jumbotron {
+    padding: 4rem 2rem;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+table {
+    width: 350px;
+    height: 350px;
+    padding: 20px 25px;
+    width: 300px;
+    border: 2px solid #206d91;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4297a0, #e57f84);
+    box-shadow: 0 0 10px rgba(167, 161, 161, 0.3);    
+}
+.container form input {
+width: -webkit-fill-available;
+padding: 8px 10px;
+margin-bottom: 15px;
+border: none;
+background-color: transparent;
+border-bottom: 2px solid #ffffff;
+color: rgb(255, 255, 255);
+}
+
+.container form button {
+width: 100%;
+height: 50px;
+padding: 5px 0;
+border: none;
+background-color: #2f5061;
+font-size: 18px;
+border-radius: 6px;
+color: #fafafa;
+cursor: pointer;
+}
+.grid-items {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.grid-rows {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.site-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+}
